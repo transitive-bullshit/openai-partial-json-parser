@@ -13,6 +13,7 @@
 - [Install](#install)
 - [Usage](#usage)
 - [Why?](#why)
+- [Related](#related)
 - [License](#license)
 
 ## Intro
@@ -46,6 +47,10 @@ const json = partialParse('{ "foo": true, ')
 - We should be able to access OpenAI's version of `partial-json-parser` without depending on the entire `openai` package.
 - OpenAI's vendored version of `partial-json-parser` doesn't have any unit tests for some reason, which could cause undesired regressions.
 - We wanted a minimal, OpenAI-compatible version of `partial-json-parser` for [openai-fetch](https://github.com/dexaai/openai-fetch), [dexter](https://github.com/dexaai/dexter), and [agentic](https://github.com/transitive-bullshit/agentic).
+
+## Related
+
+- [openai-zod-to-json-schema](https://github.com/transitive-bullshit/openai-zod-to-json-schema) - Same as this module but for OpenAI's vendored `zod-to-json-schema` with support OpenAI's `strict` mode for structured outputs.
 
 ## License
 
