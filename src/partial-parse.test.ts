@@ -120,6 +120,7 @@ const fixtures = {
 
 describe('partialParse', () => {
   test('valid json', () => {
+    // TODO: why are these simple cases failing?
     // expect(partialParse('{"a": 1}')).toEqual({ a: 1 })
     expect(partialParse('{"a": [{"b": null}, "foo"]}')).toEqual({
       a: [{ b: null }, 'foo']
@@ -127,6 +128,7 @@ describe('partialParse', () => {
   })
 
   test('partial valid json', () => {
+    // TODO: why are these simple cases failing?
     // expect(partialParse('{"a": 1')).toEqual({ a: 1 })
     expect(partialParse('"foo')).toEqual('foo')
     expect(partialParse('{"a": [{"b": null}, "foo"')).toEqual({
