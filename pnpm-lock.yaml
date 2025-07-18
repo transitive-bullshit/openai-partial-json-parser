@@ -23,9 +23,6 @@ importers:
       npm-run-all2:
         specifier: ^6.2.3
         version: 6.2.3
-      only-allow:
-        specifier: ^1.2.1
-        version: 1.2.1
       openai:
         specifier: ^4.67.3
         version: 4.67.3(zod@3.23.8)
@@ -1755,10 +1752,6 @@ packages:
     resolution: {integrity: sha512-kbpaSSGJTWdAY5KPVeMOKXSrPtr8C8C7wodJbcsd51jRnmD+GZu8Y0VoU6Dm5Z4vWr0Ig/1NKuWRKf7j5aaYSg==}
     engines: {node: '>=6'}
 
-  only-allow@1.2.1:
-    resolution: {integrity: sha512-M7CJbmv7UCopc0neRKdzfoGWaVZC+xC1925GitKH9EAqYFzX9//25Q7oX4+jw0tiCCj+t5l6VZh8UPH23NZkMA==}
-    hasBin: true
-
   openai@4.67.3:
     resolution: {integrity: sha512-HT2tZgjLgRqbLQNKmYtjdF/4TQuiBvg1oGvTDhwpSEQzxo6/oM1us8VQ53vBK2BiKvCxFuq6gKGG70qfwrNhKg==}
     hasBin: true
@@ -2389,10 +2382,6 @@ packages:
   which-collection@1.0.2:
     resolution: {integrity: sha512-K4jVyjnBdgvc86Y6BkaLZEN933SwYOuBFkdmBu9ZfkcAbdVbpITnDmjvZ/aQjRXQrv5EPkTnD1s39GiiqbngCw==}
     engines: {node: '>= 0.4'}
-
-  which-pm-runs@1.1.0:
-    resolution: {integrity: sha512-n1brCuqClxfFfq/Rb0ICg9giSZqCS+pLtccdag6C2HyufBrh3fBOiy9nb6ggRMvWOVH5GrdJskj5iGTZNxd7SA==}
-    engines: {node: '>=4'}
 
   which-typed-array@1.1.15:
     resolution: {integrity: sha512-oV0jmFtUky6CXfkqehVvBP/LSWJ2sy4vWMioiENyJLePrBO/yKyV9OyJySfAKosh+RYkIl5zJCNZ8/4JncrpdA==}
@@ -4255,10 +4244,6 @@ snapshots:
     dependencies:
       mimic-fn: 2.1.0
 
-  only-allow@1.2.1:
-    dependencies:
-      which-pm-runs: 1.1.0
-
   openai@4.67.3(zod@3.23.8):
     dependencies:
       '@types/node': 18.19.55
@@ -4931,8 +4916,6 @@ snapshots:
       is-set: 2.0.3
       is-weakmap: 2.0.2
       is-weakset: 2.0.3
-
-  which-pm-runs@1.1.0: {}
 
   which-typed-array@1.1.15:
     dependencies:

@@ -40,8 +40,7 @@
     "test:typecheck": "tsc --noEmit",
     "test:unit": "vitest run",
     "prevendor": "del src/vendor",
-    "vendor": "mkdir -p src/vendor/partial-json-parser && cp -r node_modules/openai/src/_vendor/partial-json-parser src/vendor",
-    "preinstall": "npx only-allow pnpm"
+    "vendor": "mkdir -p src/vendor/partial-json-parser && cp -r node_modules/openai/src/_vendor/partial-json-parser src/vendor"
   },
   "devDependencies": {
     "@fisch0920/eslint-config": "^1.4.0",
@@ -49,7 +48,6 @@
     "del-cli": "^6.0.0",
     "eslint": "^8.57.1",
     "npm-run-all2": "^6.2.3",
-    "only-allow": "^1.2.1",
     "openai": "^4.67.3",
     "prettier": "^3.3.3",
     "tsup": "^8.3.0",
